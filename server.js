@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   res.send('Hello World! ');
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`app listening on PORT: ${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log(`app listening on PORT: ${3000}`);
 });
 
 module.exports = app;
